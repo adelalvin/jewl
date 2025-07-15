@@ -143,3 +143,4 @@ for entry in [weight_entry, rate_entry, making_entry, other_entry, profit_entry]
     entry.bind("<KeyRelease>", calculate_price)
 
 root.mainloop()
+pip install pyinstaller
